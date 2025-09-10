@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>https://touya1125.github.io/hugo-page/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 10 Sep 2025 00:58:25 +0000</lastBuildDate><atom:link href="https://touya1125.github.io/hugo-page/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Intern</title>
+      <link>https://touya1125.github.io/hugo-page/section/intern/</link>
+      <pubDate>Wed, 10 Sep 2025 00:58:25 +0000</pubDate>
+      
+      <guid>https://touya1125.github.io/hugo-page/section/intern/</guid>
+      <description>test</description>
+    </item>
+    
+  </channel>
+</rss>
