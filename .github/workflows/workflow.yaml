@@ -2,7 +2,7 @@ name: build and deploy
 on:
   push:
     branches: 
-      - main
+      - master
   workflow_dispatch:
 
 env:
@@ -44,8 +44,8 @@ jobs:
         # Pagesの有効化にはリポジトリ設定からPagesの有効化が必要
         # 参考：https://docs.github.com/ja/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
         uses: peaceiris/actions-gh-pages@v3
-        # mainブランチ時のみ実施
-        if: ${{ github.ref == 'refs/heads/main' }}
+        # masterブランチ時のみ実施
+        if: ${{ github.ref == 'refs/heads/master' }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           # ./publicは以下のドキュメントを公開
